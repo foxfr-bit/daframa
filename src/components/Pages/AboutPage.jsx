@@ -14,19 +14,19 @@ export default function AboutPage() {
   const funfaceData = [
     {
       title: 'Global Happy Clients',
-      factNumber: '40K',
+      factNumber: '100',
     },
     {
       title: 'Project Completed',
-      factNumber: '50K',
+      factNumber: '50',
     },
     {
       title: 'Team Members',
-      factNumber: '245',
+      factNumber: '20',
     },
     {
       title: 'Digital products',
-      factNumber: '550',
+      factNumber: '10',
     },
   ];
   useEffect(() => {
@@ -49,15 +49,11 @@ export default function AboutPage() {
           <Div className="col-xl-5 col-lg-7">
             <SectionHeading
               title="Your trusted partner for business"
-              subtitle="About Our Agency"
+              subtitle="Dafrakafama"
             >
               <Spacing lg="30" md="20" />
-              <p className="cs-m0">
-                This is the main factor that sets us apart from our competition
-                and allows us to deliver a specialist business consultancy
-                service. Our team applies its wide-ranging experience to
-                determining. Through our years of experience, we’ve also learned
-                that while each channel.
+              <p className="cs-m0 text-justify" >
+              At DAFRAKAFAMA, we are passionate about helping businesses succeed. Our team of experts has years of experience in the advertising industry, and we are dedicated to delivering exceptional results for our clients. We pride ourselves on our creativity, professionalism, and attention to detail. We believe that our success is measured by the success of our clients.
               </p>
               <Spacing lg="30" md="30" />
               <Div className="cs-separator cs-accent_bg"></Div>
@@ -97,7 +93,7 @@ export default function AboutPage() {
       <Div className="container">
         <FunFact
           title="Our fun fact"
-          subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
+          subtitle="Our team of experienced professionals is dedicated to delivering creative and innovative advertising solutions that will make your brand stand out."
           data={funfaceData}
         />
       </Div>

@@ -6,10 +6,10 @@ import './servicelist.scss';
 export default function ServiceList() {
   const serviceData = [
     {
-      title: 'WP Development',
+      title: 'Advertising Agencies',
       subtitle:
-        'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium lorema doloremque laudantium, totam rem.',
-      imgUrl: '/images/service_7.jpeg',
+        'We work with businesses to design, implement and assess the success of advertising campaigns.',
+      imgUrl: '/images/service-digital.jpeg',
       href: '/service/service-details',
     },
     {
@@ -27,10 +27,10 @@ export default function ServiceList() {
       href: '/service/service-details',
     },
     {
-      title: 'Social Ad Campaign',
+      title: 'Public Relation Agency',
       subtitle:
         'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium lorema doloremque laudantium, totam rem.',
-      imgUrl: '/images/service_10.jpeg',
+      imgUrl: '/images/service-pr.jpg',
       href: '/service/service-details',
     },
   ];
