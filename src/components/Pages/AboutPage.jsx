@@ -70,7 +70,7 @@ export default function AboutPage() {
           </Div>
           <Div className="col-lg-7">
             <img
-              src="/images/about_img_2.jpeg"
+              src="/images/about-df.jpg"
               alt="About"
               className="w-100 cs-radius_15"
             />
@@ -164,7 +164,7 @@ export default function AboutPage() {
           title="Let’s disscuse make <br />something <i>cool</i> together"
           btnText="Apply For Meeting"
           btnLink="/contact"
-          bgSrc="/images/cta_bg.jpeg"
+          bgSrc="/images/cta_bg_4.jpeg"
         />
       </Div>
       {/* End CTA Section */}

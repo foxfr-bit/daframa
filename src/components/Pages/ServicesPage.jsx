@@ -118,7 +118,7 @@ export default function ServicesPage() {
           title='Let’s disscuse make <br />something <i>cool</i> together' 
           btnText='Apply For Meeting' 
           btnLink='/contact' 
-          bgSrc='/images/cta_bg.jpeg'
+          bgSrc='/images/cta_bg_4.jpeg'
         />
       </Div>
     </>
