@@ -16,7 +16,7 @@ export default function ServiceList() {
       title: 'UI/UX Design',
       subtitle:
         'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium lorema doloremque laudantium, totam rem.',
-      imgUrl: '/images/service_8.jpeg',
+      imgUrl: '/images/services-ux.jpg',
       href: '/service/service-details',
     },
     {

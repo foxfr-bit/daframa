@@ -8,9 +8,9 @@ export default function TeamSlider() {
   /** Team Member Data **/
   const teamData = [
     {
-      memberImage: '/images/member_1.jpeg',
-      memberName: 'Melon Bulgery',
-      memberDesignation: 'Product Designer',
+      memberImage: '/images/member_4.jpeg',
+      memberName: 'Daudi Gembe',
+      memberDesignation: 'Managing Director',
       memberSocial: {
         linkedin: '/',
         twitter: '/',
@@ -20,7 +20,7 @@ export default function TeamSlider() {
     },
     {
       memberImage: '/images/member_2.jpeg',
-      memberName: 'Olinaz Fushi',
+      memberName: 'Kasembe Seleman',
       memberDesignation: 'Product Designer',
       memberSocial: {
         linkedin: '/',
@@ -30,9 +30,9 @@ export default function TeamSlider() {
       },
     },
     {
-      memberImage: '/images/member_3.jpeg',
-      memberName: 'David Elone',
-      memberDesignation: 'React Developer',
+      memberImage: '/images/member_4.jpeg',
+      memberName: 'Majjid Lema',
+      memberDesignation: 'Video Grapher',
       memberSocial: {
         linkedin: '/',
         twitter: '/',

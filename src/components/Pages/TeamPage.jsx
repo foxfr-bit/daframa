@@ -12,7 +12,7 @@ export default function TeamPage() {
   const teamData = [
     {
       memberImage: '/images/member_1.jpeg',
-      memberName: 'Melon Bulgery',
+      memberName: 'Daudi Gembe',
       memberDesignation: 'Product Designer',
       memberSocial: {
         linkedin: '/',
@@ -23,7 +23,7 @@ export default function TeamPage() {
     },
     {
       memberImage: '/images/member_2.jpeg',
-      memberName: 'Olinaz Fushi',
+      memberName: 'Majjid Lema',
       memberDesignation: 'Product Designer',
       memberSocial: {
         linkedin: '/',
@@ -34,7 +34,7 @@ export default function TeamPage() {
     },
     {
       memberImage: '/images/member_3.jpeg',
-      memberName: 'David Elone',
+      memberName: 'Kasembe Seleman ',
       memberDesignation: 'React Developer',
       memberSocial: {
         linkedin: '/',

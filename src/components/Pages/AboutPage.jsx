@@ -7,6 +7,7 @@ import Div from '../Div';
 import SectionHeading from '../SectionHeading';
 import TeamSlider from '../Slider/TeamSlider';
 import Spacing from '../Spacing';
+import Accordion from '../Accordion';
 
 export default function AboutPage() {
   pageTitle('About');
@@ -78,7 +79,7 @@ export default function AboutPage() {
           </Div>
           <Div className="col-lg-5">
             <img
-              src="/images/about_img_3.jpeg"
+              src="/images/studio2.jpeg"
               alt="About"
               className="w-100 cs-radius_15"
             />
@@ -107,7 +108,7 @@ export default function AboutPage() {
             <Div className="cs-image_layer cs-style1">
               <Div className="cs-image_layer_in">
                 <img
-                  src="/images/about_img_4.jpeg"
+                  src="/images/bgk.jpeg"
                   alt="About"
                   className="w-100 cs-radius_15"
                 />
@@ -117,27 +118,17 @@ export default function AboutPage() {
           </Div>
           <Div className="col-xl-5 offset-xl-1 col-lg-6">
             <SectionHeading
-              title="Highly experienced pepole with us"
+              title="Highly experienced people with us"
               subtitle="Why Choose Us"
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
-                This is the main factor that sets us apart from our competition
-                and allows us to deliver a specialist business consultancy
-                service. Our team applies its wide-ranging experience to
-                determining. Through our years of experience, we’ve also learned
-                that while each channel.
+              Choosing the right advertising agency can make all the difference in the success of your business. Here are some reasons why you should choose Dafrakafama.
               </p>
-              <Spacing lg="15" md="15" />
-              <p className="cs-m0">
-                This is the main factor that sets us apart from our competition
-                and allows us to deliver a specialist business consultancy
-                service. Our team applies its wide-ranging experience to
-                determining.
-              </p>
-              <Spacing lg="30" md="30" />
+              <Spacing lg="30" md="15" />
               <Div className="cs-separator cs-accent_bg"></Div>
               <Spacing lg="25" md="0" />
+              <Div><Accordion/></Div>
             </SectionHeading>
           </Div>
         </Div>

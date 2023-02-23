@@ -83,11 +83,12 @@ export default function Home() {
       {/* End FunFact Section */}
 
       {/* Start Service Section */}
-      <Spacing lg="145" md="80" />
+      <Spacing lg="145" md="60" />
       <Div className="container">
-        <SectionHeading
-          title="Our Services"
-          subtitle="we offer a wide range of advertising services to help you reach your target audience and achieve your marketing objectives."
+      <h1 className="cs-page_title cs-font_50 cs-white_color text-center">Our Service</h1>
+        <SectionHeading 
+          title="" 
+          subtitle="We offer a wide range of advertising services to help you reach your target audience and achieve your marketing objectives."
           variant="cs-style1 text-center"
           btnText="See All Services"
           btnLink="/service"

@@ -12,20 +12,20 @@ export default function Accordion() {
   }
   const accordionData = [
     {
-      question: 'Do you design illustration website?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: 'Experience',
+      answer: 'Our team of advertising experts has years of experience in the industry. We have worked with businesses of all sizes and industries, and we know what it takes to create effective advertising campaigns that deliver results.'
     },
     {
-      question: 'Do you provide design source file after finish work?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: 'Customization ',
+      answer: 'We understand that every business is unique, which is why we do not believe in a one size fits all approach to advertising. We take the time to understand your business, your goals, and your target audience, and we create custom advertising plans tailored to your needs.'
     },
     {
-      question: 'How to provide project details and payments?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: 'Innovation:',
+      answer: 'We are constantly exploring new advertising strategies and technologies to stay ahead of the curve. We use cutting-edge tools and techniques to create advertising campaigns that are not only effective but also creative and memorable.'
     },
     {
-      question: 'Can you tell me please how to contact for project?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: 'Transparency:',
+      answer: 'We believe in transparency and accountability, which is why we provide detailed reports on the success of your advertising campaigns. You can trust us to be honest and upfront about the results of your campaigns, and we will work with you to make any necessary adjustments to improve your ROI.'
     },
     {
       question: 'Do you makes custom logo, icon etc?',
