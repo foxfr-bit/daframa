@@ -1,51 +1,43 @@
-import React, { useState } from 'react';
-import Slider from 'react-slick';
-import { Icon } from '@iconify/react';
-import Testimonial from '../Testimonial';
-import Div from '../Div';
-import Spacing from '../Spacing';
+import React, { useState } from "react";
+import Slider from "react-slick";
+import { Icon } from "@iconify/react";
+import Testimonial from "../Testimonial";
+import Div from "../Div";
+import Spacing from "../Spacing";
 export default function TestimonialSlider() {
   const [nav1, setNav1] = useState();
   const [nav2, setNav2] = useState();
   const testimonialData = [
     {
-      testimonialThumb: '/images/testimonial_1.jpeg',
+      testimonialThumb: "/images/turban.jpeg",
       testimonialText:
-        'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-      avatarName: 'Ahon Monsery',
-      avatarDesignation: 'CEO AT TECH',
-      ratings: '4',
+        "I recently had the pleasure of working with a digital marketing agency and I can confidently say that they exceeded my expectations. From the moment I reached out to them, their team was responsive, knowledgeable, and truly invested in helping me achieve my business goals.",
+      avatarName: "Francis Lusinde",
+      avatarDesignation: "CEO AT Urban Technologies",
+      ratings: "5",
     },
     {
-      testimonialThumb: '/images/testimonial_2.jpeg',
+      testimonialThumb: "/images/testimonial_2.jpeg",
       testimonialText:
-        'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-      avatarName: 'Ahon Monsery',
-      avatarDesignation: 'CEO AT TECH',
-      ratings: '5',
+        "We hired a Dafrakafama to help increase traffic and sales on my e-commerce website and I am so glad I did. The team at the agency was professional, knowledgeable, and went above and beyond to make sure I was satisfied with their services.",
+      avatarName: "Ahon Monsery",
+      avatarDesignation: "CEO AT Kliktech Company Limited",
+      ratings: "5",
     },
     {
-      testimonialThumb: '/images/testimonial_3.jpeg',
+      testimonialThumb: "/images/testimonial_3.jpeg",
       testimonialText:
-        'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-      avatarName: 'Ahon Monsery',
-      avatarDesignation: 'CEO AT TECH',
-      ratings: '4.5',
-    },
-    {
-      testimonialThumb: '/images/testimonial_1.jpeg',
-      testimonialText:
-        'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-      avatarName: 'Ahon Monsery',
-      avatarDesignation: 'CEO AT TECH',
-      ratings: '3.5',
+        "I have been working with this digital marketing agency for the past year and I can say with confidence that they have been a game-changer for my business. They have helped me to create and implement a comprehensive digital marketing strategy that has significantly increased my online presence and improved my bottom line.",
+      avatarName: "Ahon Monsery",
+      avatarDesignation: "CEO AT Wasoko",
+      ratings: "4.5",
     },
   ];
   const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
     <div
       {...props}
       className={
-        'slick-prev slick-arrow' + (currentSlide === 0 ? ' slick-disabled' : '')
+        "slick-prev slick-arrow" + (currentSlide === 0 ? " slick-disabled" : "")
       }
       aria-hidden="true"
       aria-disabled={currentSlide === 0 ? true : false}
@@ -57,8 +49,8 @@ export default function TestimonialSlider() {
     <div
       {...props}
       className={
-        'slick-next slick-arrow' +
-        (currentSlide === slideCount - 1 ? ' slick-disabled' : '')
+        "slick-next slick-arrow" +
+        (currentSlide === slideCount - 1 ? " slick-disabled" : "")
       }
       aria-hidden="true"
       aria-disabled={currentSlide === slideCount - 1 ? true : false}
@@ -78,7 +70,7 @@ export default function TestimonialSlider() {
             <Div className="cs-testimonial_slider_left">
               <Slider
                 asNavFor={nav1}
-                ref={slider2 => setNav2(slider2)}
+                ref={(slider2) => setNav2(slider2)}
                 slidesToShow={3}
                 swipeToSlide={true}
                 focusOnSelect={true}
@@ -100,7 +92,7 @@ export default function TestimonialSlider() {
             <Div className="cs-testimonial_slider_right">
               <Slider
                 asNavFor={nav2}
-                ref={slider1 => setNav1(slider1)}
+                ref={(slider1) => setNav1(slider1)}
                 prevArrow={<SlickArrowLeft />}
                 nextArrow={<SlickArrowRight />}
                 className="cs-arrow_style1"

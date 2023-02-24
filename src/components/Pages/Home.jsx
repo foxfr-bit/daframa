@@ -109,7 +109,7 @@ export default function Home() {
         <Div className="row">
           <Div className="col-lg-4">
             <IconBox
-              icon="/images/icons/research.png"
+              icon="/images/icons/research.svg"
               title="Researching"
               subtitle="The research department collects important data that the agency uses to produce effective campaigns. This department studies demographics, societal trends and other relevant information."
             />
@@ -125,7 +125,7 @@ export default function Home() {
           </Div>
           <Div className="col-lg-4">
             <IconBox
-              icon="/images/icons/service_icon_3.svg"
+              icon="/images/icons/budget.svg"
               title="Presenting & Budgeting"
               subtitle="Establishing a budget needs to be done carefully and thoughtfully. During this step, it is important to track all expenses, figure out sources of funding, and look into potential grants. "
             />
