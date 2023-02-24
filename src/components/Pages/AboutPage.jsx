@@ -93,7 +93,7 @@ export default function AboutPage() {
           </Div>
           <Div className="col-lg-5">
             <img
-              src="/images/studio2.jpeg"
+              src="/images/studio.jpeg"
               alt="About"
               className="w-100 cs-radius_15"
             />
@@ -122,7 +122,7 @@ export default function AboutPage() {
             <Div className="cs-image_layer cs-style1">
               <Div className="cs-image_layer_in">
                 <img
-                  src="/images/bgk.jpeg"
+                  src="/images/prof.jpg"
                   alt="About"
                   className="w-100 cs-radius_15"
                 />

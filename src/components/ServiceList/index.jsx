@@ -16,20 +16,20 @@ export default function ServiceList() {
       title: "Digital Marketing",
       subtitle:
         "Our team specializes in creating digital marketing campaigns that are effective and measurable. We utilize various channels such as social media, search engine optimization, pay-per-click advertising, and email marketing to ensure that your message is seen by the right people.",
-      imgUrl: "/images/services-ux.jpg",
+      imgUrl: "/images/social.jpg",
       href: "/service/service-details",
     },
     {
       title: "Website Designing",
       subtitle:
         "Our team specializes in creating digital marketing campaigns that are effective and measurable. We utilize various channels such as social media, search engine optimization, pay-per-click advertising, and email marketing to ensure that your message is seen by the right people.",
-      imgUrl: "/images/services-ux.jpg",
+      imgUrl: "/images/design.jpeg",
       href: "/service/service-details",
     },
     {
-      title: "Public Relation Agency",
+      title: "Public Relations",
       subtitle:
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium lorema doloremque laudantium, totam rem.",
+        "Our team of experienced professionals understands the importance of building strong relationships between our clients and their target audience. That's why we offer a comprehensive range of public relations services to help you establish and maintain a positive reputation in the digital landscape.",
       imgUrl: "/images/service-pr.jpg",
       href: "/service/service-details",
     },
