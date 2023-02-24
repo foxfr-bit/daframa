@@ -1,33 +1,33 @@
-import React, { useEffect } from 'react';
-import { pageTitle } from '../../helper';
-import Cta from '../Cta';
-import FunFact from '../FunFact';
-import PageHeading from '../PageHeading';
-import Div from '../Div';
-import SectionHeading from '../SectionHeading';
-import TeamSlider from '../Slider/TeamSlider';
-import Spacing from '../Spacing';
-import Accordion from '../Accordion';
+import React, { useEffect } from "react";
+import { pageTitle } from "../../helper";
+import Cta from "../Cta";
+import FunFact from "../FunFact";
+import PageHeading from "../PageHeading";
+import Div from "../Div";
+import SectionHeading from "../SectionHeading";
+import TeamSlider from "../Slider/TeamSlider";
+import Spacing from "../Spacing";
+import Accordion from "../Accordion";
 
 export default function AboutPage() {
-  pageTitle('About');
+  pageTitle("About");
 
   const funfaceData = [
     {
-      title: 'Global Happy Clients',
-      factNumber: '100',
+      title: "Global Happy Clients",
+      factNumber: "100",
     },
     {
-      title: 'Project Completed',
-      factNumber: '50',
+      title: "Project Completed",
+      factNumber: "50",
     },
     {
-      title: 'Team Members',
-      factNumber: '20',
+      title: "Team Members",
+      factNumber: "20",
     },
     {
-      title: 'Digital products',
-      factNumber: '10',
+      title: "Digital products",
+      factNumber: "10",
     },
   ];
   useEffect(() => {
@@ -53,9 +53,23 @@ export default function AboutPage() {
               subtitle="Dafrakafama"
             >
               <Spacing lg="30" md="20" />
-              <p className="cs-m0 text-justify" >
-              At DAFRAKAFAMA, we are passionate about helping businesses succeed. Our team of experts has years of experience in the advertising industry, and we are dedicated to delivering exceptional results for our clients. We pride ourselves on our creativity, professionalism, and attention to detail. We believe that our success is measured by the success of our clients.
+              <p className="cs-m0">
+                Dafrakafama is a versatile creative digital transformation
+                company that deals with all advertising platforms above and
+                below the line Dafra’s has it all when comes to solving variety
+                of commercial needs concerning Strategy, retails, events, media
+                production, and design.
               </p>
+
+              <p className="cs-m0 mt-4 !important">
+                At DAFRAKAFAMA, we are passionate about helping businesses
+                succeed. Our team of experts has years of experience in the
+                advertising industry, and we are dedicated to delivering
+                exceptional results for our clients. We pride ourselves on our
+                creativity, professionalism, and attention to detail. We believe
+                that our success is measured by the success of our clients.
+              </p>
+
               <Spacing lg="30" md="30" />
               <Div className="cs-separator cs-accent_bg"></Div>
               <Spacing lg="25" md="40" />
@@ -123,12 +137,16 @@ export default function AboutPage() {
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
-              Choosing the right advertising agency can make all the difference in the success of your business. Here are some reasons why you should choose Dafrakafama.
+                Choosing the right advertising agency can make all the
+                difference in the success of your business. Here are some
+                reasons why you should choose Dafrakafama.
               </p>
               <Spacing lg="30" md="15" />
               <Div className="cs-separator cs-accent_bg"></Div>
               <Spacing lg="25" md="0" />
-              <Div><Accordion/></Div>
+              <Div>
+                <Accordion />
+              </Div>
             </SectionHeading>
           </Div>
         </Div>
@@ -140,7 +158,7 @@ export default function AboutPage() {
       <Div className="container">
         <SectionHeading
           title="Awesome team <br/>members"
-          subtitle="Our Team"
+          subtitle="We are the muldisplinary team with the background in art media and design"
           variant="cs-style1"
         />
         <Spacing lg="85" md="45" />

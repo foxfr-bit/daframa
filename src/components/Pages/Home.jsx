@@ -1,54 +1,52 @@
-import React, { useEffect } from 'react';
-// import Card from '../Card';
-import FunFact from '../FunFact';
-import Hero2 from '../Hero';
-import Div from '../Div';
-import SectionHeading from '../SectionHeading';
-import Spacing from '../Spacing';
-import Cta from '../Cta';
-import LogoList from '../LogoList';
-import MovingText from '../MovingText';
-import PortfolioSlider from '../Slider/PortfolioSlider';
-// import PostSlider from '../Slider/PostSlider';
-import TestimonialSlider from '../Slider/TestimonialSlider';
-import TeamSlider from '../Slider/TeamSlider';
-import VideoModal from '../VideoModal';
-// import TimelineSlider from '../Slider/TimelineSlider';
-import { pageTitle } from '../../helper';
-import ServiceList from '../ServiceList';
+import React, { useEffect } from "react";
+import FunFact from "../FunFact";
+import Hero2 from "../Hero";
+import Div from "../Div";
+import SectionHeading from "../SectionHeading";
+import Spacing from "../Spacing";
+import IconBox from "../IconBox";
+import Cta from "../Cta";
+import LogoList from "../LogoList";
+import MovingText from "../MovingText";
+import PortfolioSlider from "../Slider/PortfolioSlider";
+import TestimonialSlider from "../Slider/TestimonialSlider";
+import TeamSlider from "../Slider/TeamSlider";
+import VideoModal from "../VideoModal";
+import { pageTitle } from "../../helper";
+import ServiceList from "../ServiceList";
 
 export default function Home() {
-  pageTitle('Home');
+  pageTitle("Home");
 
   // Hero Social Links
   const heroSocialLinks = [
     {
-      name: 'Instagram',
-      links: '/',
+      name: "Instagram",
+      links: "/",
     },
     {
-      name: 'Twitter',
-      links: '/',
+      name: "Twitter",
+      links: "/",
     },
   ];
 
   // FunFact Data
   const funfaceData = [
     {
-      title: 'Happy Clients',
-      factNumber: '100',
+      title: "Happy Clients",
+      factNumber: "100",
     },
     {
-      title: 'Project Completed',
-      factNumber: '50',
+      title: "Project Completed",
+      factNumber: "50",
     },
     {
-      title: 'Team Members',
-      factNumber: '20',
+      title: "Team Members",
+      factNumber: "20",
     },
     {
-      title: 'Digital products',
-      factNumber: '10',
+      title: "Digital products",
+      factNumber: "10",
     },
   ];
 
@@ -85,9 +83,11 @@ export default function Home() {
       {/* Start Service Section */}
       <Spacing lg="145" md="60" />
       <Div className="container">
-      <h1 className="cs-page_title cs-font_50 cs-white_color text-center">Our Service</h1>
-        <SectionHeading 
-          title="" 
+        <h1 className="cs-page_title cs-font_50 cs-white_color text-center">
+          Our Service
+        </h1>
+        <SectionHeading
+          title=""
           subtitle="We offer a wide range of advertising services to help you reach your target audience and achieve your marketing objectives."
           variant="cs-style1 text-center"
           btnText="See All Services"
@@ -95,17 +95,51 @@ export default function Home() {
         />
         <Spacing lg="70" md="45" />
         <ServiceList />
-        
       </Div>
       {/* End Service Section */}
 
+      <Spacing lg="145" md="80" />
+      <Div className="container">
+        <SectionHeading
+          title="Working process"
+          subtitle="Dafrakafama"
+          variant="cs-style1 text-center"
+        />
+        <Spacing lg="90" md="45" />
+        <Div className="row">
+          <Div className="col-lg-4">
+            <IconBox
+              icon="/images/icons/research.png"
+              title="Researching"
+              subtitle="The research department collects important data that the agency uses to produce effective campaigns. This department studies demographics, societal trends and other relevant information."
+            />
+            <Spacing lg="30" md="30" />
+          </Div>
+          <Div className="col-lg-4">
+            <IconBox
+              icon="/images/icons/planning.png"
+              title="Planning & Organizing"
+              subtitle="Defining the scope and goals of your project as well as create and stick with a timeline. When developing a timeline, it is important to keep track of deadlines, milestones, and foreseeable risks associated with your project. "
+            />
+            <Spacing lg="30" md="30" />
+          </Div>
+          <Div className="col-lg-4">
+            <IconBox
+              icon="/images/icons/service_icon_3.svg"
+              title="Presenting & Budgeting"
+              subtitle="Establishing a budget needs to be done carefully and thoughtfully. During this step, it is important to track all expenses, figure out sources of funding, and look into potential grants. "
+            />
+            <Spacing lg="30" md="30" />
+          </Div>
+        </Div>
+      </Div>
       {/* Start Portfolio Section */}
       <Spacing lg="150" md="50" />
       <Div>
         <Div className="container">
           <SectionHeading
             title="Portfolio to explore"
-            subtitle="Latest Projects"
+            subtitle="Branding - Advertising - Photographic"
             variant="cs-style1 text-center"
             btnText="See All works"
             btnLink="/portfolio"
@@ -151,7 +185,7 @@ export default function Home() {
 
       {/* Start MovingText Section */}
       <Spacing lg="125" md="70" />
-      <MovingText text="Our reputed world wide partners" />
+      <MovingText text="Our Esteemed Clients" />
       <Spacing lg="105" md="70" />
       {/* End MovingText Section */}
 
