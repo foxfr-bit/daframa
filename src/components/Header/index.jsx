@@ -5,7 +5,6 @@ import Newsletter from "../Widget/Newsletter";
 import "./header.scss";
 import ContactInfoWidget from "../Widget/ContactInfoWidget";
 import Div from "../Div";
-import DropDown from "./DropDown";
 
 export default function Header({ variant }) {
   const [isSticky, setIsSticky] = useState(false);
@@ -112,33 +111,13 @@ export default function Header({ variant }) {
                         About
                       </NavLink>
                     </li>
-                    <li className="menu-item-has-children">
+                    <li>
                       <NavLink
                         to="service"
                         onClick={() => setMobileToggle(false)}
                       >
                         Services
                       </NavLink>
-                      <DropDown>
-                        <ul>
-                          <li>
-                            <Link
-                              to="service"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Services
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              to="/service/service-details"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Service Details
-                            </Link>
-                          </li>
-                        </ul>
-                      </DropDown>
                     </li>
                     <li>
                       <NavLink

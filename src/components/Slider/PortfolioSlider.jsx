@@ -9,7 +9,7 @@ export default function PortfolioSlider() {
       title: "Wasoko Road Advertsing",
       subtitle: "See Details",
       href: "/portfolio/portfolio-details",
-      src: "/images/wasokob.png",
+      src: "/images/wasokob.jpg",
     },
     {
       title: "Wasoko Printing",
@@ -18,10 +18,10 @@ export default function PortfolioSlider() {
       src: "/images/wasokopr.png",
     },
     {
-      title: "Colorful Art Work",
+      title: "Wasoko Office Branding",
       subtitle: "See Details",
       href: "/portfolio/portfolio-details",
-      src: "/images/portfolio_0.jpg",
+      src: "/images/officerb.jpg",
     },
     {
       title: "Colorful Art Work",

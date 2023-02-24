@@ -1,14 +1,14 @@
-import { Icon } from '@iconify/react';
-import React, { useEffect } from 'react';
-import { pageTitle } from '../../helper';
-import Div from '../Div';
-import PageHeading from '../PageHeading';
-import SectionHeading from '../SectionHeading';
-import Spacing from '../Spacing';
-import ContactInfoWidget from '../Widget/ContactInfoWidget';
+import { Icon } from "@iconify/react";
+import React, { useEffect } from "react";
+import { pageTitle } from "../../helper";
+import Div from "../Div";
+import PageHeading from "../PageHeading";
+import SectionHeading from "../SectionHeading";
+import Spacing from "../Spacing";
+import ContactInfoWidget from "../Widget/ContactInfoWidget";
 
 export default function ContactPage() {
-  pageTitle('Contact Us');
+  pageTitle("Contact Us");
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -24,7 +24,7 @@ export default function ContactPage() {
         <Div className="row">
           <Div className="col-lg-6">
             <SectionHeading
-              title="Do you have a project <br/>in your mind?"
+              title="Ready to take your Business to the next level?"
               subtitle="Getting Touch"
             />
             <Spacing lg="55" md="30" />
@@ -84,4 +84,3 @@ export default function ContactPage() {
     </>
   );
 }
-

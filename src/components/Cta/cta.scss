@@ -10,9 +10,10 @@
     font-weight: 600;
     font-size: 50px;
   }
+  
 }
 @media screen and (max-width: 1300px) {
-  .cs-cta.cs-style1 .cs-cta_title {
+  .cs-cta.cs-style1 .cs-cta_title  {
     font-size: 42px;
   }
 }
@@ -26,6 +27,7 @@
         display: none;
       }
     }
+    
   }
 }
 @media screen and (max-width: 767px) {
@@ -41,5 +43,6 @@
     .cs-cta_title {
       font-size: 28px;
     }
+    
   }
 }

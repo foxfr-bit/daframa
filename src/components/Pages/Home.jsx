@@ -68,7 +68,6 @@ export default function Home() {
         bgImageUrl="/images/slider_5.jpeg"
       />
       {/* End Hero Section */}
-
       {/* Start FunFact Section */}
       <div className="container">
         <FunFact
@@ -79,7 +78,6 @@ export default function Home() {
         />
       </div>
       {/* End FunFact Section */}
-
       {/* Start Service Section */}
       <Spacing lg="145" md="60" />
       <Div className="container">
@@ -97,7 +95,7 @@ export default function Home() {
         <ServiceList />
       </Div>
       {/* End Service Section */}
-
+      {/* Work process Section*/}
       <Spacing lg="145" md="80" />
       <Div className="container">
         <SectionHeading
@@ -133,6 +131,8 @@ export default function Home() {
           </Div>
         </Div>
       </Div>
+      {/* Work process Section End */}
+
       {/* Start Portfolio Section */}
       <Spacing lg="150" md="50" />
       <Div>
@@ -149,7 +149,6 @@ export default function Home() {
         <PortfolioSlider />
       </Div>
       {/* End Portfolio Section */}
-
       {/* Start Video Block Section */}
       <Spacing lg="130" md="70" />
       <Div className="container">
@@ -164,7 +163,6 @@ export default function Home() {
         />
       </Div>
       {/* End Video Block Section */}
-
       {/* Start Team Section */}
       <Spacing lg="145" md="80" />
       <Div className="container">
@@ -178,28 +176,24 @@ export default function Home() {
       </Div>
       <Spacing lg="150" md="80" />
       {/* End Team Section */}
-
       {/* Start Testimonial Section */}
       <TestimonialSlider />
       {/* End Testimonial Section */}
-
       {/* Start MovingText Section */}
       <Spacing lg="125" md="70" />
       <MovingText text="Our Esteemed Clients" />
       <Spacing lg="105" md="70" />
       {/* End MovingText Section */}
-
       {/* Start LogoList Section */}
       <Div className="container">
         <LogoList />
       </Div>
       <Spacing lg="150" md="80" />
       {/* End LogoList Section */}
-
       {/* Start CTA Section */}
       <Div className="container">
         <Cta
-          title="Let’s disscuse make <br />something <i>cool</i> together"
+          title="Automate your marketing tasks and gain more clients for your Business"
           btnText="Apply For Meeting"
           btnLink="/contact"
           bgSrc="/images/cta_bg_4.jpeg"

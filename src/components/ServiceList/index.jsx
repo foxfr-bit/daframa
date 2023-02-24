@@ -1,48 +1,48 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import Div from '../Div';
-import './servicelist.scss';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import Div from "../Div";
+import "./servicelist.scss";
 
 export default function ServiceList() {
   const serviceData = [
     {
-      title: 'Advertising Agencies',
+      title: "Branding and Identity",
       subtitle:
-        'We work with businesses to design, implement and assess the success of advertising campaigns.',
-      imgUrl: '/images/service-digital.jpeg',
-      href: '/service/service-details',
+        "We help businesses establish a strong brand identity by creating logos, slogans, and messaging that resonate with their target audience.",
+      imgUrl: "/images/wasokob.jpg",
+      href: "/service/service-details",
     },
     {
-      title: 'UI/UX Design',
+      title: "Digital Marketing",
       subtitle:
-        'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium lorema doloremque laudantium, totam rem.',
-      imgUrl: '/images/services-ux.jpg',
-      href: '/service/service-details',
+        "Our team specializes in creating digital marketing campaigns that are effective and measurable. We utilize various channels such as social media, search engine optimization, pay-per-click advertising, and email marketing to ensure that your message is seen by the right people.",
+      imgUrl: "/images/services-ux.jpg",
+      href: "/service/service-details",
     },
     {
-      title: 'Branding',
+      title: "Website Designing",
       subtitle:
-        'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium lorema doloremque laudantium, totam rem.',
-      imgUrl: '/images/service_9.jpeg',
-      href: '/service/service-details',
+        "Our team specializes in creating digital marketing campaigns that are effective and measurable. We utilize various channels such as social media, search engine optimization, pay-per-click advertising, and email marketing to ensure that your message is seen by the right people.",
+      imgUrl: "/images/services-ux.jpg",
+      href: "/service/service-details",
     },
     {
-      title: 'Public Relation Agency',
+      title: "Public Relation Agency",
       subtitle:
-        'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium lorema doloremque laudantium, totam rem.',
-      imgUrl: '/images/service-pr.jpg',
-      href: '/service/service-details',
+        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium lorema doloremque laudantium, totam rem.",
+      imgUrl: "/images/service-pr.jpg",
+      href: "/service/service-details",
     },
   ];
   const [active, setActive] = useState(0);
-  const handelActive = index => {
+  const handelActive = (index) => {
     setActive(index);
   };
   return (
     <Div className="cs-iconbox_3_list">
       {serviceData.map((item, index) => (
         <Div
-          className={`cs-hover_tab ${active === index ? 'active' : ''}`}
+          className={`cs-hover_tab ${active === index ? "active" : ""}`}
           key={index}
           onMouseEnter={() => handelActive(index)}
         >
