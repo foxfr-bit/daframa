@@ -22,7 +22,7 @@ export default function ServiceList() {
     {
       title: "Website Designing",
       subtitle:
-        "Our team specializes in creating digital marketing campaigns that are effective and measurable. We utilize various channels such as social media, search engine optimization, pay-per-click advertising, and email marketing to ensure that your message is seen by the right people.",
+        "Our team understand that designing Websites requires a combination of technical and creative skills to create a website that meets the client's objectives while also providing an excellent user experience.",
       imgUrl: "/images/design.jpeg",
       href: "/service/service-details",
     },

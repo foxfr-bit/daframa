@@ -30,6 +30,7 @@ export default function Home() {
     },
   ];
 
+  
   // FunFact Data
   const funfaceData = [
     {
