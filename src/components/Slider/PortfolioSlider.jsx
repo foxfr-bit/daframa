@@ -8,25 +8,25 @@ export default function PortfolioSlider() {
     {
       title: "Wasoko Road Advertsing",
       subtitle: "See Details",
-      href: "/portfolio/portfolio-details",
+      href: "/portfolio",
       src: "/images/wasokob.jpg",
     },
     {
       title: "Wasoko Printing",
       subtitle: "See Details",
-      href: "/portfolio/portfolio-details",
+      href: "/portfolio",
       src: "/images/wasokopr.png",
     },
     {
       title: "Wasoko Office Branding",
       subtitle: "See Details",
-      href: "/portfolio/portfolio-details",
+      href: "/portfolio",
       src: "/images/officerb.jpg",
     },
     {
       title: "Colorful Art Work",
       subtitle: "See Details",
-      href: "/portfolio/portfolio-details",
+      href: "/portfolio",
       src: "/images/portfolio_3.jpeg",
     },
   ];
