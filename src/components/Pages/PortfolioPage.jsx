@@ -39,14 +39,14 @@ export default function PortfolioPage() {
       title: "Colorful Art Work",
       subtitle: "See Details",
       href: "/portfolio",
-      src: "/images/portfolio_7.jpeg",
+      src: "/images/tshirt.jpg",
       category: "mobile_apps",
     },
     {
       title: "Colorful Art Work",
       subtitle: "See Details",
       href: "/portfolio",
-      src: "/images/portfolio_8.jpeg",
+      src: "/images/waterbt.jpg",
       category: "ui_ux_design",
     },
     {
@@ -57,10 +57,10 @@ export default function PortfolioPage() {
       category: "web_design",
     },
     {
-      title: "Colorful Art Work",
+      title: "Logo Design",
       subtitle: "See Details",
       href: "/portfolio",
-      src: "/images/portfolio_10.jpeg",
+      src: "/images/LogoDesign.jpeg",
       category: "logo_design",
     },
     {
@@ -187,8 +187,8 @@ export default function PortfolioPage() {
       <Spacing lg="145" md="80" />
       <Div className="container">
         <Cta
-          title="Let’s disscuse make <br />something <i>cool</i> together"
-          btnText="Apply For Meeting"
+          title="Let’s create something amazing"
+          btnText="Get Started"
           btnLink="/contact"
           bgSrc="/images/cta_bg_4.jpeg"
         />

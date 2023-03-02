@@ -102,7 +102,13 @@ export default function ServicesPage() {
           </Div>
         </Div>
       </Div>
-
+      <Spacing lg="150" md="80" />
+      <Div className="container">
+        <SectionHeading
+          title="Industries"
+          subtitle="We work across industries"
+        />
+      </Div>
       <Spacing lg="150" md="80" />
       <Div className="container">
         <SectionHeading
@@ -113,7 +119,6 @@ export default function ServicesPage() {
         <PricingTableList />
       </Div>
       <Spacing lg="125" md="55" />
-
       <Div className="container">
         <Cta
           title="Let’s disscuse make <br />something <i>cool</i> together"
