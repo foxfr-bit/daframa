@@ -9,6 +9,7 @@ import SectionHeading from "../SectionHeading";
 // import TestimonialSlider from "../Slider/TestimonialSlider";
 import Spacing from "../Spacing";
 import { Link } from "react-router-dom";
+import { serviceData } from "../ServiceList";
 
 const industries = [
 	{
@@ -84,70 +85,31 @@ export default function ServicesPage() {
 							/>
 							<Spacing lg="90" md="45" />
 						</Div>
-						<Div className="col-xl-8">
-							<Div className="row">
-								<Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
-								<Div className="col-lg-3 col-sm-6">
-									<Card
-										title="UI/UX design"
-										link="/service/ui-ux-design"
-										src="/images/service_1.jpeg"
-										alt="Service"
-									/>
-									<Spacing lg="0" md="30" />
+						<Div className="services__grid">
+							{serviceData.map((industry, index) => (
+								<Div className={`cs-hover_tab`} key={index}>
+									<Link
+										to={industry.link}
+										className="cs-iconbox cs-style3"
+									>
+										<>
+											<Div className="number-list">
+												<span className="">
+													{index + 1}
+												</span>
+												<Div className="cs-iconbox_in">
+													<h2 className="cs-iconbox_title">
+														{industry.title}
+													</h2>
+													<Div className="cs-iconbox_subtitle">
+														{industry.subtitle}
+													</Div>
+												</Div>
+											</Div>
+										</>
+									</Link>
 								</Div>
-								<Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
-								<Div className="col-lg-3 col-sm-6">
-									<Card
-										title="React.js Development"
-										link="/service/reactjs-development"
-										src="/images/service_2.jpeg"
-										alt="Service"
-									/>
-									<Spacing lg="0" md="30" />
-								</Div>
-
-								<Div className="col-lg-3 col-sm-6">
-									<Card
-										title="Digital Marketing"
-										link="/service/digital-marketing"
-										src="/images/service_3.jpeg"
-										alt="Service"
-									/>
-									<Spacing lg="0" md="30" />
-								</Div>
-								<Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
-								<Div className="col-lg-3 col-sm-6">
-									<Card
-										title="Technology"
-										link="/service/technology"
-										src="/images/service_4.jpeg"
-										alt="Service"
-									/>
-									<Spacing lg="0" md="30" />
-								</Div>
-								<Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
-								<Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
-								<Div className="col-lg-3 col-sm-6">
-									<Card
-										title="Consultancy"
-										link="/service/consultancy"
-										src="/images/service_5.jpeg"
-										alt="Service"
-									/>
-									<Spacing lg="0" md="30" />
-								</Div>
-								<Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
-								<Div className="col-lg-3 col-sm-6">
-									<Card
-										title="Creative Design"
-										link="/service/creative-design"
-										src="/images/service_6.jpeg"
-										alt="Service"
-									/>
-									<Spacing lg="0" md="30" />
-								</Div>
-							</Div>
+							))}
 						</Div>
 					</Div>
 				</Div>
@@ -173,7 +135,7 @@ export default function ServicesPage() {
 								onMouseEnter={() => handelActive(index)}
 							>
 								<Link
-									to={industry.link}
+									to={industry.href}
 									className="cs-iconbox cs-style3"
 								>
 									<>
