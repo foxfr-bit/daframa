@@ -1,0 +1,11 @@
+.industry {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	position: relative;
+}
+
+.sticky {
+	position: sticky;
+	top: 0;
+	height: 200px;
+}
