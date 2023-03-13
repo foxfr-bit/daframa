@@ -1,0 +1,28 @@
+.industry {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	position: relative;
+}
+
+.sticky {
+	position: sticky;
+	top: 0;
+	height: 200px;
+}
+
+.services__grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+    z-index: 1;
+}
+
+.number-list {
+    display: flex;
+    align-items: start;
+
+    & span {
+        margin-right: 40px;
+        margin-top: 20px;
+        font-size: 80px;
+    }
+}
