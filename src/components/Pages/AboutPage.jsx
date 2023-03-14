@@ -170,8 +170,7 @@ export default function AboutPage() {
       <Spacing lg="150" md="80" />
       <Div className="container">
         <Cta
-          title="Let’s discuss make <br />something <i>cool</i> together"
-          subtitle="Contact us today to learn more about how we can help you grow your business through effective advertising strategies"
+          title="Automate your marketing tasks and gain more clients for your Business."
           btnText="Apply For Meeting"
           btnLink="/contact"
           bgSrc="/images/cta_bg_4.jpeg"

@@ -187,7 +187,7 @@ export default function PortfolioPage() {
       <Spacing lg="145" md="80" />
       <Div className="container">
         <Cta
-          title="Let’s create something amazing"
+          title="Automate your marketing tasks and gain more clients for your Business."
           btnText="Get Started"
           btnLink="/contact"
           bgSrc="/images/cta_bg_4.jpeg"

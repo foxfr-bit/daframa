@@ -172,7 +172,7 @@ export default function ServicesPage() {
       <Spacing lg="125" md="55" />
       <Div className="container">
         <Cta
-          title="Let’s disscuse make <br />something <i>cool</i> together"
+          title="Automate your marketing tasks and gain more clients for your Business."
           btnText="Apply For Meeting"
           btnLink="/contact"
           bgSrc="/images/cta_bg_4.jpeg"

@@ -1,101 +1,101 @@
-import React, { useEffect } from 'react';
-import { pageTitle } from '../../helper';
-import Cta from '../Cta';
-import PageHeading from '../PageHeading';
-import Div from '../Div';
-import SectionHeading from '../SectionHeading';
-import Spacing from '../Spacing';
-import Team from '../Team';
+import React, { useEffect } from "react";
+import { pageTitle } from "../../helper";
+import Cta from "../Cta";
+import PageHeading from "../PageHeading";
+import Div from "../Div";
+import SectionHeading from "../SectionHeading";
+import Spacing from "../Spacing";
+import Team from "../Team";
 
 export default function TeamPage() {
-  pageTitle('Team');
+  pageTitle("Team");
   const teamData = [
     {
-      memberImage: '/images/member_1.jpeg',
-      memberName: 'Daudi Gembe',
-      memberDesignation: 'Product Designer',
+      memberImage: "/images/member_1.jpeg",
+      memberName: "Daudi Gembe",
+      memberDesignation: "Product Designer",
       memberSocial: {
-        linkedin: '/',
-        twitter: '/',
-        youtube: '/',
-        facebook: '/',
+        linkedin: "/",
+        twitter: "/",
+        youtube: "/",
+        facebook: "/",
       },
     },
     {
-      memberImage: '/images/member_2.jpeg',
-      memberName: 'Majjid Lema',
-      memberDesignation: 'Product Designer',
+      memberImage: "/images/member_2.jpeg",
+      memberName: "Majjid Lema",
+      memberDesignation: "Product Designer",
       memberSocial: {
-        linkedin: '/',
-        twitter: '/',
-        youtube: '/',
-        facebook: '/',
+        linkedin: "/",
+        twitter: "/",
+        youtube: "/",
+        facebook: "/",
       },
     },
     {
-      memberImage: '/images/member_3.jpeg',
-      memberName: 'Kasembe Seleman ',
-      memberDesignation: 'React Developer',
+      memberImage: "/images/member_3.jpeg",
+      memberName: "Kasembe Seleman ",
+      memberDesignation: "React Developer",
       memberSocial: {
-        linkedin: '/',
-        twitter: '/',
-        youtube: '/',
-        facebook: '/',
+        linkedin: "/",
+        twitter: "/",
+        youtube: "/",
+        facebook: "/",
       },
     },
     {
-      memberImage: '/images/member_4.jpeg',
-      memberName: 'Melina Opole',
-      memberDesignation: 'WP Developer',
+      memberImage: "/images/member_4.jpeg",
+      memberName: "Melina Opole",
+      memberDesignation: "WP Developer",
       memberSocial: {
-        linkedin: '/',
-        twitter: '/',
-        youtube: '/',
-        facebook: '/',
+        linkedin: "/",
+        twitter: "/",
+        youtube: "/",
+        facebook: "/",
       },
     },
     {
-      memberImage: '/images/member_3.jpeg',
-      memberName: 'David Elone',
-      memberDesignation: 'React Developer',
+      memberImage: "/images/member_3.jpeg",
+      memberName: "David Elone",
+      memberDesignation: "React Developer",
       memberSocial: {
-        linkedin: '/',
-        twitter: '/',
-        youtube: '/',
-        facebook: '/',
+        linkedin: "/",
+        twitter: "/",
+        youtube: "/",
+        facebook: "/",
       },
     },
     {
-      memberImage: '/images/member_4.jpeg',
-      memberName: 'Melina Opole',
-      memberDesignation: 'WP Developer',
+      memberImage: "/images/member_4.jpeg",
+      memberName: "Melina Opole",
+      memberDesignation: "WP Developer",
       memberSocial: {
-        linkedin: '/',
-        twitter: '/',
-        youtube: '/',
-        facebook: '/',
+        linkedin: "/",
+        twitter: "/",
+        youtube: "/",
+        facebook: "/",
       },
     },
     {
-      memberImage: '/images/member_1.jpeg',
-      memberName: 'Melon Bulgery',
-      memberDesignation: 'Product Designer',
+      memberImage: "/images/member_1.jpeg",
+      memberName: "Melon Bulgery",
+      memberDesignation: "Product Designer",
       memberSocial: {
-        linkedin: '/',
-        twitter: '/',
-        youtube: '/',
-        facebook: '/',
+        linkedin: "/",
+        twitter: "/",
+        youtube: "/",
+        facebook: "/",
       },
     },
     {
-      memberImage: '/images/member_2.jpeg',
-      memberName: 'Olinaz Fushi',
-      memberDesignation: 'Product Designer',
+      memberImage: "/images/member_2.jpeg",
+      memberName: "Olinaz Fushi",
+      memberDesignation: "Product Designer",
       memberSocial: {
-        linkedin: '/',
-        twitter: '/',
-        youtube: '/',
-        facebook: '/',
+        linkedin: "/",
+        twitter: "/",
+        youtube: "/",
+        facebook: "/",
       },
     },
   ];
@@ -135,7 +135,7 @@ export default function TeamPage() {
         <Spacing lg="70" md="50" />
         <Div className="container">
           <Cta
-            title="Let’s disscuse make <br />something <i>cool</i> together"
+            title="Automate your marketing tasks and gain more clients for your Business."
             btnText="Apply For Meeting"
             btnLink="/contact"
             bgSrc="/images/cta_bg.jpeg"

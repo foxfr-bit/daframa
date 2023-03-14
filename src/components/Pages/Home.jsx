@@ -190,7 +190,7 @@ export default function Home() {
       {/* Start CTA Section */}
       <Div className="container">
         <Cta
-          title="Automate your marketing tasks and gain more clients for your Business"
+          title="Automate your marketing tasks and gain more clients for your Business."
           btnText="Apply For Meeting"
           btnLink="/contact"
           bgSrc="/images/cta_bg_4.jpeg"
