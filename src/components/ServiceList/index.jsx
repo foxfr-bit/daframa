@@ -9,35 +9,35 @@ export const serviceData = [
     subtitle:
       "We help businesses establish a strong brand identity by creating logos, slogans, and messaging that resonate with their target audience.",
     imgUrl: "/images/wasokob.jpg",
-    href: "/service/service-details",
+    href: "/service",
   },
   {
     title: "Digital Marketing",
     subtitle:
       "Our team specializes in creating digital marketing campaigns that are effective and measurable. We utilize various channels such as social media, search engine optimization, pay-per-click advertising, and email marketing to ensure that your message is seen by the right people.",
     imgUrl: "/images/social.jpg",
-    href: "/service/service-details",
+    href: "/service",
   },
   {
     title: "Website Designing",
     subtitle:
       "Our team understand that designing Websites requires a combination of technical and creative skills to create a website that meets the client's objectives while also providing an excellent user experience.",
     imgUrl: "/images/design.jpeg",
-    href: "/service/service-details",
+    href: "/service",
   },
   {
     title: "Public Relations",
     subtitle:
       "Our team of experienced professionals understands the importance of building strong relationships between our clients and their target audience. That's why we offer a comprehensive range of public relations services to help you establish and maintain a positive reputation in the digital landscape.",
     imgUrl: "/images/service-pr.jpg",
-    href: "/service/service-details",
+    href: "/service",
   },
   {
     title: "Human Resources Services",
     subtitle:
       "We have successfully recruited and outsourced staff from different industries and for different clients. Most of these personnel provided are marketers, customer service/call center executives, Front desk officers, Factory Operatives - categorized into Skilled, Semi-Skilled and Unskilled (Truck Drivers, Drivers, Packers, Loader, Bulk loader, Warehouse Operatives, Cleaners, Electricians.",
     imgUrl: "images/service-pr.jpg",
-    href: "/service/service-details",
+    href: "/service",
   },
 ];
 
