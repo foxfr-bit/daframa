@@ -127,3 +127,29 @@
     clip-path:inset(0 0 0 0);
   }
 }
+.my-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sticky-xl-top {
+  padding-top: 30px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  align-self: first baseline;
+}
+.swiper-scrollbar-vertical {
+  overflow-y: auto;
+  height: calc(100vh - 120px);
+  padding-left: 15px;
+}
+.swiper-scrollbar-vertical::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.swiper-scrollbar-vertical {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

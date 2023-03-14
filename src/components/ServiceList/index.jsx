@@ -36,7 +36,7 @@ export const serviceData = [
     title: "Human Resources Services",
     subtitle:
       "We have successfully recruited and outsourced staff from different industries and for different clients. Most of these personnel provided are marketers, customer service/call center executives, Front desk officers, Factory Operatives - categorized into Skilled, Semi-Skilled and Unskilled (Truck Drivers, Drivers, Packers, Loader, Bulk loader, Warehouse Operatives, Cleaners, Electricians.",
-    imgUrl: "images/service-pr.jpg",
+    imgUrl: "images/HR.jpg",
     href: "/service",
   },
 ];
@@ -65,6 +65,7 @@ export default function ServiceList() {
                   />
                 </Div>
               </Div>
+
               <span className="cs-iconbox_icon cs-center">
                 <svg
                   width={30}
