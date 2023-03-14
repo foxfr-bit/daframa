@@ -150,7 +150,7 @@ export default function Home() {
       </Div>
       {/* End Portfolio Section */}
       {/* Start Pricing  Section */}
-      <Spacing lg="150" md="80" />
+      {/* <Spacing lg="150" md="80" />
       <Div className="container">
         <SectionHeading
           title="Providing best <br/>pricing for client"
@@ -158,10 +158,10 @@ export default function Home() {
         />
         <Spacing lg="85" md="40" />
         <PricingTableList />
-      </Div>
+      </Div> */}
       {/* End Pricing Section */}
       {/* Start Team Section */}
-      <Spacing lg="145" md="80" />
+      {/* <Spacing lg="145" md="80" />
       <Div className="container">
         <SectionHeading
           title="Awesome team <br/>members"
@@ -170,7 +170,7 @@ export default function Home() {
         />
         <Spacing lg="85" md="45" />
         <TeamSlider />
-      </Div>
+      </Div> */}
       <Spacing lg="150" md="80" />
       {/* End Team Section */}
       {/* Start Testimonial Section */}

@@ -159,7 +159,7 @@ export default function ServicesPage() {
       </Div>
 
       {/* Industries Served End*/}
-      <Spacing lg="150" md="80" />
+      {/* <Spacing lg="150" md="80" />
       <Div className="container">
         <SectionHeading
           title="Providing best <br/>pricing for client"
@@ -167,7 +167,7 @@ export default function ServicesPage() {
         />
         <Spacing lg="85" md="40" />
         <PricingTableList />
-      </Div>
+      </Div> */}
 
       <Spacing lg="125" md="55" />
       <Div className="container">
