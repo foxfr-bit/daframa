@@ -10,8 +10,8 @@ import LogoList from "../LogoList";
 import MovingText from "../MovingText";
 import PortfolioSlider from "../Slider/PortfolioSlider";
 import TestimonialSlider from "../Slider/TestimonialSlider";
-import TeamSlider from "../Slider/TeamSlider";
-import PricingTableList from "../PricingTable/PricingTableList";
+// import TeamSlider from "../Slider/TeamSlider";
+// import PricingTableList from "../PricingTable/PricingTableList";
 import { pageTitle } from "../../helper";
 import ServiceList from "../ServiceList";
 
