@@ -171,13 +171,13 @@ export default function Home() {
         <Spacing lg="85" md="45" />
         <TeamSlider />
       </Div> */}
-      <Spacing lg="150" md="80" />
+      {/* <Spacing lg="150" md="80" /> */}
       {/* End Team Section */}
       {/* Start Testimonial Section */}
-      <TestimonialSlider />
+      {/* <TestimonialSlider /> */}
       {/* End Testimonial Section */}
       {/* Start MovingText Section */}
-      <Spacing lg="125" md="70" />
+      <Spacing lg="125" md="80" />
       <MovingText text="Our Esteemed Clients" />
       <Spacing lg="105" md="70" />
       {/* End MovingText Section */}
