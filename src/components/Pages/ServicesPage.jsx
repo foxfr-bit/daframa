@@ -15,43 +15,37 @@ const industries = [
   {
     title: "Fintech",
     description:
-      "Amet, aliquam eu at egestas. Dolor ante pellentesque tellus mollis. Viverra nam pellentesque nulla vitae, cras risus volutpat tempor. Vestibulum urna, arcu proin.",
+      "We serve fintech companies by providing them with a comprehensive range of digital marketing services. They can help to create and implement effective digital marketing campaigns that target the right audience and drive traffic and engagement to the fintech company's website.",
     link: "#",
   },
   {
-    title: "Crypto & NFT",
+    title: "Telecommunication",
     description:
-      "Amet, aliquam eu at egestas. Dolor ante pellentesque tellus mollis. Viverra nam pellentesque nulla vitae, cras risus volutpat tempor. Vestibulum urna, arcu proin.",
+      "For the telecommunication industries, digital marketing can play a crucial role in driving new customer acquisition, promoting service subscriptions, and keeping customers engaged with new product offerings. Here are some specific ways that digital marketing can serve the telecommunication industry: SEO (Search Engine Optmization), Content Marketing, Social Media Marketing",
     link: "#",
   },
   {
-    title: "Advertising",
+    title: "Advertising Agencies",
     description:
-      "Amet, aliquam eu at egestas. Dolor ante pellentesque tellus mollis. Viverra nam pellentesque nulla vitae, cras risus volutpat tempor. Vestibulum urna, arcu proin.",
+      "We provide valuable support and collaboration opportunities for other agencies looking to expand their services and capabilities. By partnering together, both agencies can benefit from shared expertise and resources, ultimately delivering better outcomes for their client",
     link: "#",
   },
   {
-    title: "Retail",
+    title: "Retails",
     description:
-      "Amet, aliquam eu at egestas. Dolor ante pellentesque tellus mollis. Viverra nam pellentesque nulla vitae, cras risus volutpat tempor. Vestibulum urna, arcu proin.",
+      "We provice various services to retail industries in order to increase sales and online visibility. Here are some ways a digital marketing agency serves retail industries.",
     link: "#",
   },
   {
     title: "Finance",
     description:
-      "Amet, aliquam eu at egestas. Dolor ante pellentesque tellus mollis. Viverra nam pellentesque nulla vitae, cras risus volutpat tempor. Vestibulum urna, arcu proin.",
+      "We assist finance companies in creating effective marketing strategies to improve visibility and attract new customers.",
     link: "#",
   },
   {
     title: "Fashion",
     description:
-      "Amet, aliquam eu at egestas. Dolor ante pellentesque tellus mollis. Viverra nam pellentesque nulla vitae, cras risus volutpat tempor. Vestibulum urna, arcu proin.",
-    link: "#",
-  },
-  {
-    title: "Sports",
-    description:
-      "Amet, aliquam eu at egestas. Dolor ante pellentesque tellus mollis. Viverra nam pellentesque nulla vitae, cras risus volutpat tempor. Vestibulum urna, arcu proin.",
+      "We serve the fashion industry in various ways such as creating a strong online presence for the brand, increasing traffic and sales, building and developing a brand image, and enhancing customer engagement.",
     link: "#",
   },
 ];
@@ -108,6 +102,7 @@ export default function ServicesPage() {
         </Div>
       </Div>
       <Spacing lg="150" md="80" />
+
       {/* Industries Served Start*/}
       <Div className="container my-container">
         <Div className="row industry">
