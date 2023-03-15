@@ -48,7 +48,7 @@ export default function ServiceList() {
   };
   return (
     <Div className="cs-iconbox_3_list">
-      {serviceData.map((item, index) => (
+      {serviceData.slice(0, 4).map((item, index) => (
         <Div
           className={`cs-hover_tab ${active === index ? "active" : ""}`}
           key={index}
